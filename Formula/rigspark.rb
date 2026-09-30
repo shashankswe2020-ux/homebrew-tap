@@ -1,7 +1,6 @@
 class Rigspark < Formula
   desc "Hardware-aware CLI for choosing and running local LLMs"
   homepage "https://github.com/shashankswe2020-ux/rigspark"
-  version "2.0.0"
   license "MIT"
 
   on_macos do
