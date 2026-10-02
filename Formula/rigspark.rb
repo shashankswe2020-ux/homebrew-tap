@@ -1,28 +1,27 @@
 class Rigspark < Formula
-  desc "Hardware-aware CLI that tells you which local LLMs will run before installing them"
+  desc "Hardware-aware CLI for choosing and running local LLMs"
   homepage "https://github.com/shashankswe2020-ux/rigspark"
-  version "2.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v2.1.0/rigspark-aarch64-apple-darwin.tar.gz"
-      sha256 "0d7c06f07b2ef748da64b2b0184c8041c6756a8de4c898bd2bbdd7bbf77f09e7"
+      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v2.2.0/rigspark-aarch64-apple-darwin.tar.gz"
+      sha256 "507fa2b7fd2596de4a569910cb4c7974654a0bd5d831f8f1c7a2c66dfe937074"
     end
     on_intel do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v2.1.0/rigspark-x86_64-apple-darwin.tar.gz"
-      sha256 "bbce13dcde772cbd49e7a68329878a6423bd5995838444aa044341054a225362"
+      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v2.2.0/rigspark-x86_64-apple-darwin.tar.gz"
+      sha256 "a57351a92c671f7ea1fd64625a4385b7ec591e33dad8a53aa551f9780e01d556"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v2.1.0/rigspark-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f5a44397d51d9eed6eccb6f85e589058075afa5e9bf1ff44921213214e200d0a"
+      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v2.2.0/rigspark-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "720c84c3ffde66b58ef3d4824f83125fe9208e1b833361689bddf2980be65e68"
     end
     on_intel do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v2.1.0/rigspark-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c1ad24a36f2754b8e355e579b1f7949a809ad32436764cd5193808a474335c2f"
+      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v2.2.0/rigspark-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "820494f7558128773da2cd0cdc1e1f28626bcf2c2d0722892b5c03f95dfb8ff5"
     end
   end
 
