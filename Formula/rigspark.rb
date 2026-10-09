@@ -5,28 +5,35 @@ class Rigspark < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.0.1/rigspark-aarch64-apple-darwin.tar.gz"
-      sha256 "37e751c811515c51ebcb8be7b3033097aac63c3260477baea12ddd2e040e3e4e"
+      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.0.2/rigspark-aarch64-apple-darwin.tar.gz"
+      sha256 "fee739dab8ae0ac5efef174e578d040ee1ef27aecc3274738185919f521de622"
     end
     on_intel do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.0.1/rigspark-x86_64-apple-darwin.tar.gz"
-      sha256 "9cf955d56b59853d88f6274b90403721cc21ea4b9eb4dececf769d3745c76903"
+      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.0.2/rigspark-x86_64-apple-darwin.tar.gz"
+      sha256 "115fac46252be84b2ef1b922fc541914b5173838d7968694acc8fc19a3f29e10"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.0.1/rigspark-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9dbd04a53046f0f31e209e06525181aef49dcfd98fe4958d18dc17b705075777"
+      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.0.2/rigspark-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "69437c3d70da7291c16ad46a67b15aa7c40fa5fb389b839bf19479e61c926049"
     end
     on_intel do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.0.1/rigspark-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "beb315295b24f8eb5b1ac805e35494d19cfdd8709e6725ef75bc56a6c8ffcffb"
+      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.0.2/rigspark-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "89fbd8387f6335954cdc1b99932272bf8050e9810bb4ab7ee823880b7af5c709"
     end
   end
 
   def install
     bin.install "llmup", "rigspark", "rigspark-gui"
+  end
+
+  def caveats
+    <<~EOS
+      If Sparky helps you, please consider sponsoring the project:
+      https://buymeacoffee.com/shashanksw9
+    EOS
   end
 
   test do
