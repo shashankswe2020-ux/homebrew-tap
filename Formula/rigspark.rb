@@ -1,27 +1,27 @@
 class Rigspark < Formula
   desc "Hardware-aware CLI for choosing and running local LLMs"
-  homepage "https://github.com/shashankswe2020-ux/rigspark"
+  homepage "https://github.com/rigspark/rigspark"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.1.0/rigspark-aarch64-apple-darwin.tar.gz"
-      sha256 "23458d12114a1d6eade1745089a2e0908b9af366bb26f737f47efa524758f213"
+      url "https://github.com/rigspark/rigspark/releases/download/v3.1.2/rigspark-aarch64-apple-darwin.tar.gz"
+      sha256 "e92a8907d63e64f12e16f15392c67384cef26e2901a2821b5527bf0ba547bcde"
     end
     on_intel do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.1.0/rigspark-x86_64-apple-darwin.tar.gz"
-      sha256 "e682f7242ea46575572b79b9e453ff8cf849be94b7de94e054aad6f587fc1e6c"
+      url "https://github.com/rigspark/rigspark/releases/download/v3.1.2/rigspark-x86_64-apple-darwin.tar.gz"
+      sha256 "cd472c6ed0dbe51fa86e4e7407f8ca01c861a48981ef8a431dd8c54b22335780"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.1.0/rigspark-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bcc8bd54e79cfe04b64f59b58ad02c04f12655b89a109272560cbd30da0cb933"
+      url "https://github.com/rigspark/rigspark/releases/download/v3.1.2/rigspark-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "65fde463c8dcdab700695a8f6f04c0de0ac8a21f4433cab0b10017beb89d9d12"
     end
     on_intel do
-      url "https://github.com/shashankswe2020-ux/rigspark/releases/download/v3.1.0/rigspark-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1ad3bf89945ea7a8cd3b32c7ec938abd6b4df2f9e48eb6050cc8becd22548878"
+      url "https://github.com/rigspark/rigspark/releases/download/v3.1.2/rigspark-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "36366cbab2d2d7186741c26a4c7bd33cec64e3a80d471080729cf4601cf65b34"
     end
   end
 
