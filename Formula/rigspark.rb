@@ -5,23 +5,23 @@ class Rigspark < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/rigspark/rigspark/releases/download/v3.1.2/rigspark-aarch64-apple-darwin.tar.gz"
-      sha256 "e92a8907d63e64f12e16f15392c67384cef26e2901a2821b5527bf0ba547bcde"
+      url "https://github.com/rigspark/rigspark/releases/download/v3.1.3/rigspark-aarch64-apple-darwin.tar.gz"
+      sha256 "f074da583e5da8b79ed4529097edd26aa414ed937ddc7e4fd41c5a482fd716e8"
     end
     on_intel do
-      url "https://github.com/rigspark/rigspark/releases/download/v3.1.2/rigspark-x86_64-apple-darwin.tar.gz"
-      sha256 "cd472c6ed0dbe51fa86e4e7407f8ca01c861a48981ef8a431dd8c54b22335780"
+      url "https://github.com/rigspark/rigspark/releases/download/v3.1.3/rigspark-x86_64-apple-darwin.tar.gz"
+      sha256 "087f4f1af5da4b0f2775b53ad681291b1bd5619393a1269c048905de9764dd8d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rigspark/rigspark/releases/download/v3.1.2/rigspark-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "65fde463c8dcdab700695a8f6f04c0de0ac8a21f4433cab0b10017beb89d9d12"
+      url "https://github.com/rigspark/rigspark/releases/download/v3.1.3/rigspark-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a5da822cd36544a9b9a6694c0ed6d99761b062d913338ccdbfaeeb017e97f288"
     end
     on_intel do
-      url "https://github.com/rigspark/rigspark/releases/download/v3.1.2/rigspark-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "36366cbab2d2d7186741c26a4c7bd33cec64e3a80d471080729cf4601cf65b34"
+      url "https://github.com/rigspark/rigspark/releases/download/v3.1.3/rigspark-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "06e2142da46c630f13c1673d5e9a9ca7e533d9b49807ab3aa216118f20464724"
     end
   end
 
